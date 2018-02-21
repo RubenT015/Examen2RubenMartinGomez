@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.example.alumnom.examen2rubenmartingomez.ItemPais">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp">
+        <TextView
+            android:id="@+id/tvNomI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre(inglés): "/>
+        <TextView
+            android:id="@+id/tvNomE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre(castellano): "
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:id="@+id/tvCla"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clave: "
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:id="@+id/tvCap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capital: "
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:id="@+id/tvCont"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cotinente: "
+            android:layout_marginLeft="4dp"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="4dp">
+        <TextView
+            android:id="@+id/tvPobl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Población: "/>
+        <TextView
+            android:id="@+id/tvLat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitud: "
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:id="@+id/tvLon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitud: "
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Países fronterizos: "
+            android:layout_marginLeft="4dp"/>
+        <TextView
+            android:id="@+id/tvFron"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginLeft="4dp"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
